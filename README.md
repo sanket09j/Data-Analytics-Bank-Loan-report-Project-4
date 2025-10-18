@@ -89,16 +89,6 @@ This dashboard provides a tabular view of detailed loan records including:
 * DAX (for custom measures and KPIs)
 * Power Query for data transformations
 
-📷 Screenshots
-Summary Dashboard
-![Summary](./path-to-image/Finance.png)
-
-Overview Dashboard
-![Overview](./path-to-image/FinanceOverview.png)
-
-Details Dashboard
-![Details](./path-to-image/Finance%20Details.png)
-
 🚀 How to Use
 1. Clone the repository.
 2. Open the Power BI `.pbix` file.
