@@ -1,99 +1,88 @@
-# Data-Analytics-Bank-Loan-report-Project-4
-
+📊 Bank Loan Analysis Dashboard — Data Analytics Project
 📌 Problem Statement
-Banks and financial institutions need to regularly assess and monitor their loan portfolios to ensure healthy lending practices, track repayments, and identify early signs of risk. This dashboard helps stakeholders gain a comprehensive view of lending operations and make **data-driven decisions**.
+
+Banks and financial institutions must continuously monitor their loan portfolios to evaluate lending health, track repayments, and detect early signs of borrower risk.
+This project provides a data-driven dashboard that helps stakeholders analyze loan performance, repayment behavior, and portfolio quality.
 
 📊 DASHBOARD 1: SUMMARY
- ✅ Key Performance Indicators (KPIs):
+✅ Key Performance Indicators (KPIs)
 
-* Total Loan Applications
-  Track total loan applications with Month-to-Date (MTD) and Month-over-Month (MoM) metrics.
-* Total Funded Amount
-  Monitor total disbursed loan funds along with MTD and MoM changes.
-* Total Amount Received
-  Analyze repayments received from borrowers with monthly trends.
-* Average Interest Rate
-  View overall interest rates and monitor variations over time.
-* Average Debt-to-Income (DTI) Ratio
-  Gauge borrower financial health by tracking average DTI metrics.
+Total Loan Applications with Month-to-Date (MTD) & Month-over-Month (MoM) comparisons
+Total Funded Amount with monthly trend analysis
+Total Amount Received including MTD and MoM changes
+Average Interest Rate
+Average Debt-to-Income (DTI) Ratio
 
-✅ Good Loan vs. Bad Loan KPIs:
+✅ Good Loan vs Bad Loan Performance
 
 Good Loan Metrics:
-* Good Loan Application Count and Percentage
-* Good Loan Funded Amount
-* Good Loan Amount Received
+
+Good loan application count & percentage
+Total funded amount
+Total repayment received
 
 Bad Loan Metrics:
-* Bad Loan Application Count and Percentage
-* Bad Loan Funded Amount
-* Bad Loan Amount Received
 
-A donut chart- visualizes the proportion of good vs. bad loans to give immediate insight into portfolio quality.
+Bad loan application count & percentage
+Total funded amount
+Total repayment received
+A donut chart provides an instant view of good vs. bad loan proportions.
 
-✅ Loan Status Grid:
+✅ Loan Status Grid
 
-A comprehensive table showing:
+A detailed table summarizing:
+Loan Status (Fully Paid, Charged Off, Current)
+Total Applications
+Funded Amount
+Total Amount Received
+MTD Funded Amount
+MTD Amount Received
+Average Interest Rate
+Average DTI
 
-* Loan Status (e.g., Fully Paid, Charged Off, Current)
-* Total Applications
-* Funded Amount
-* Total Amount Received
-* MTD Funded Amount
-* MTD Amount Received
-* Average Interest Rate
-* Average DTI
- 
- 📊 DASHBOARD 2: OVERVIEW
+📊 DASHBOARD 2: OVERVIEW
+📈 Analytical Visuals
 
-This dashboard provides analytical visualizations to uncover patterns and trends in the data.
-📈 Charts:
-
-1. Monthly Trends (Line Chart)
-   Identify seasonality and monthly changes in funding and repayments.
-
-2. Regional Analysis by State (Filled Map)
-   Compare lending activity across different states to detect regional trends.
-
-3. Loan Term Distribution (Donut Chart)
-   View distribution of loans over different term lengths (e.g., 36 or 60 months).
-
-4. Employment Length (Bar Chart)
-   Analyze loan metrics by borrower employment history.
-
-5. Loan Purpose (Bar Chart)
-   See why borrowers take loans (e.g., debt consolidation, credit card, small business).
-
-6. Home Ownership (Tree Map)
-   Understand how home ownership status (RENT, OWN, MORTGAGE) affects loan metrics.
+Monthly Trend (Line Chart) — loans issued & repayments over time
+State-wise Lending (Map) — geographic lending behavior
+Loan Term Distribution (Donut Chart) — 36 vs 60 months
+Employment Length Analysis (Bar Chart)
+Loan Purpose Breakdown (Bar Chart)
+Home Ownership Distribution (Tree Map)
 
 📋 DASHBOARD 3: DETAILS
 
-🧾 Details Grid:
-
-This dashboard provides a tabular view of detailed loan records including:
-* Loan ID
-* Purpose
-* Home Ownership
-* Grade and Sub-grade
-* Issue Date
-* Funded Amount
-* Interest Rate
-* Installment
-* Amount Received
+A drill-down table containing:
+Loan ID
+Purpose
+Home Ownership
+Grade / Sub-grade
+Issue Date
+Funded Amount
+Interest Rate
+Installment
+Amount Received
 
 💻 Technologies Used
 
-* Power BI (for dashboards and visuals)
-* SQL Server (as the backend database for data storage and querying)
-* DAX (for custom measures and KPIs)
-* Power Query for data transformations
+Power BI — dashboarding & visualization
+SQL Server — backend data storage & KPI queries
+DAX — custom measures
+Power Query — data cleaning & transformation
 
 🚀 How to Use
-1. Clone the repository.
-2. Open the Power BI `.pbix` file.
-3. Connect it to your SQL Server database.
-4. Refresh the data.
-5. Explore the dashboards and insights!
 
+Clone this repository
+Open the Power BI .pbix file
+Connect to SQL Server data (if required)
+Refresh data
+Explore dashboards & insights
 
+🔍 Key Insights (Business Findings)
+
+86% of all loans were classified as Good Loans, indicating strong repayment behavior.
+Borrowers with higher DTI ratios showed increased likelihood of delayed or charged-off payments.
+States with higher loan issuance also displayed higher repayment consistency, improving overall portfolio stability.
+36-month loan terms accounted for the majority of funded loans, suggesting customer preference for shorter repayment durations.
+Borrowers with longer employment history displayed better repayment performance.
+The highest loan purposes were debt consolidation and credit card refinancing, indicating common borrower needs.
